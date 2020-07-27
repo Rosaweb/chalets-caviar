@@ -9,10 +9,3 @@ Version:		 1.0.0
 Text Domain:	 customify-child
 */
 
-
-.wp-block-columns {
-    display: flex;
-    margin-bottom: 28px;
-    flex-wrap: wrap;
-    background-color:blue;
-}
