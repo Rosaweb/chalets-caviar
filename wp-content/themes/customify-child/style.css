@@ -1,11 +1,39 @@
 /* 
 Theme Name:		 Customify-child
-Theme URI:		 http://childtheme-generator.com/
-Description:	 Customify-child is a child theme of Customify, created by ChildTheme-Generator.com
+Theme URI:		 
+Description:	 Customify-child is a child theme of Customify
 Author:			 Cyberdome
-Author URI:		 http://childtheme-generator.com/
+Author URI:		 
 Template:		 customify
 Version:		 1.0.0
 Text Domain:	 customify-child
 */
 
+/* LOGO TITRE ET BRANDING */
+
+.site-branding img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+}
+
+.site-branding {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 16em;
+}
+
+
+/* Bloc: Des chalets à la mesure de vos rêves */
+
+ .entry-content .wp-block-columns:first-child {
+     background-color:rgba(202, 195, 177, 0.78);
+     padding:0px;
+ }
+
+
+ 
