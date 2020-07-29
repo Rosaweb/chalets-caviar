@@ -9,4 +9,18 @@ Version:		 1.0.0
 Text Domain:	 customify-child
 */
 
+
+/* Centrage logo, titre, description */
 .site-branding img { margin: 0 auto; }
+.site-title { text-align: center;}
+.site-description { text-align: center;}
+
+/* Couleur premier bloc */
+#post-67 .entry-content div.wp-block-columns:nth-of-type(1) {
+    background-color: antiquewhite;
+}
+
+/* Suppression des marges autour de l'image d'entête */
+#post-67 figure.wp-block-image {
+    margin:0px;
+}
