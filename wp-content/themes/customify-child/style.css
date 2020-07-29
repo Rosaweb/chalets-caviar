@@ -17,7 +17,7 @@ Text Domain:	 customify-child
 
 /* Couleur premier bloc */
 #post-67 .entry-content div.wp-block-columns:nth-of-type(1) {
-    background-color: antiquewhite;
+    background-color:rgba(202, 195, 177, 0.78);
 }
 
 /* Suppression des marges autour de l'image d'entête */
