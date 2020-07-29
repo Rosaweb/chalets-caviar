@@ -15,9 +15,9 @@ Text Domain:	 customify-child
 .site-title { text-align: center;}
 .site-description { text-align: center;}
 
-/* Couleur premier bloc */
+/* Couleur premier bloc ( .entry-content .wp-block-columns:first-child) */
 #post-67 .entry-content div.wp-block-columns:nth-of-type(1) {
-    background-color:rgba(202, 195, 177, 0.78);
+    background-color:rgba(202, 195, 177, 0.78);g
 }
 
 /* Suppression des marges autour de l'image d'entête */
