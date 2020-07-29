@@ -9,6 +9,12 @@ Version:		 1.0.0
 Text Domain:	 customify-child
 */
 
+html, body {
+    color: #686868;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.618;
+}
 
 /* Centrage logo, titre, description */
 .site-branding img { margin: 0 auto; }
@@ -20,7 +26,36 @@ Text Domain:	 customify-child
     background-color:rgba(202, 195, 177, 0.78);g
 }
 
+
+
 /* Suppression des marges autour de l'image d'entête */
 #post-67 figure.wp-block-image {
     margin:0px;
+}
+
+/* Ajout de marge autour des chalets a la mesure de vos rêves */
+#post-67 .entry-content .wp-block-columns div.wp-block-column:last-child {
+    padding:20px;
+}
+
+
+
+
+
+#site-content, #main {
+    background-color:rgb(221, 219, 215);
+}
+
+#main.content-area.customify-col-12 {
+    padding-top: 0px;
+}
+
+/* Couleur text widgets footer */
+#cb-row--footer-main *{
+    color:black;
+}
+
+/* Centrage copyright */
+.builder-footer-copyright-item, .footer-copyright {
+    text-align: center;
 }
