@@ -98,8 +98,12 @@ html, body {
 
 
 #site-content, #main {
-    background-color:rgb(221, 219, 215);
+
     padding-top:30px;
+}
+
+#main {
+    background-color:rgb(221, 219, 215);
 }
 
 #main.content-area.customify-col-12 {
