@@ -21,22 +21,77 @@ html, body {
 .site-title { text-align: center;}
 .site-description { text-align: center;}
 
-/* Couleur premier bloc ( .entry-content .wp-block-columns:first-child) */
-#post-67 .entry-content div.wp-block-columns:nth-of-type(1) {
-    background-color:rgba(202, 195, 177, 0.78);g
+
+
+
+
+
+
+/* BANDEAU IMAGE HEADER DES CHALETS A LA MESURE DE VOS REVES */
+
+
+/* Customization bandeau image */
+#cb-row--header-bottom {
+    background-color:rgba(202, 195, 177, 0.78);
 }
 
+.header--row-inner, .item--inner.builder-item--html, .builder-header-html-item.item--html {
+    width:1184px;
+    margin:0px auto;
+}
 
-
-/* Suppression des marges autour de l'image d'entête */
-#post-67 figure.wp-block-image {
+#cb-row--header-bottom .header--row-inner .customify-container {
+    padding:0em;
     margin:0px;
 }
 
-/* Ajout de marge autour des chalets a la mesure de vos rêves */
-#post-67 .entry-content .wp-block-columns div.wp-block-column:last-child {
-    padding:20px;
+/* Positionnement des blocs gauche et droite du bandeau (pas réussi avec flex) */ 
+#cb-row--header-bottom .header--row-inner .customify-container * {
+    vertical-align:middle;
+    display:inline-block;
 }
+
+/* Bloc gauche avec l'image */
+#left-block-img {
+    width:400px;
+    padding:0px;
+    margin:0px;
+}
+
+#left-block-img figure{
+    margin:0px;
+    padding:0px;
+    line-height: 0em; /* A cause d'un br ajoutté automatiquement par le theme après l'image que contient figure */
+}
+
+/* Bloc text de droite */
+#right-block-text {
+    margin:0px;
+    padding: 20px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    width:770px;
+}
+
+#right-block-text h2 {
+    text-align: center;
+}  
+
+#right-block-text p {
+    text-transform: none;
+    font-size: 16px;;
+}
+
+#page-titlebar {
+    padding:12px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -44,18 +99,47 @@ html, body {
 
 #site-content, #main {
     background-color:rgb(221, 219, 215);
+    padding-top:30px;
 }
 
 #main.content-area.customify-col-12 {
     padding-top: 0px;
 }
 
+
+
+
+/* CUSTOMIZATION FOOTER */
+
 /* Couleur text widgets footer */
 #cb-row--footer-main *{
     color:black;
 }
 
+#cb-row--footer-main .widget-title{
+    color:black;
+    font-weight: 600;
+}
+
+#text-3 {
+    border-right:1px solid black;
+}
+
+#nav_menu-3 {
+    border-right:1px solid black;
+}
+
+/* Adjustment copyrigth section high */
+#cb-row--footer-bottom .footer--row-inner, .footer-bottom-inner {
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
 /* Centrage copyright */
 .builder-footer-copyright-item, .footer-copyright {
     text-align: center;
+}
+
+#site-footer #cb-raw--footer-main .footer--row-inner {
+    padding-bottom:0;
 }
