@@ -112,6 +112,14 @@ margin-left: 2.5em;
     padding-top: 0px;
 }
 
+/*ajustement titres */
+
+#post-67 .entry-content h2 {
+    background-color:#dedede ;
+    font-size: 24px;
+    padding:5px;
+    text-align: center;
+}
 
 
 /* ajustement chalets  */
@@ -127,7 +135,7 @@ margin-left: 2.5em;
     -moz-filter: sepia(1);
     -o-filter: sepia(1);
     -ms-filter: sepia(1);
-    
+
     /*
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
