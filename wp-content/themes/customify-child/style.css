@@ -16,18 +16,29 @@ html, body {
     line-height: 1.618;
 }
 
-/* Centrage logo, titre, description */
+/* LOGO TITRE ET DESCRIPTION */
+
 .site-branding img { margin: 0 auto; }
 .site-title { text-align: center;}
 .site-description { text-align: center;}
 
+#cb-row--header-main .site-img-logo {
+    width:200px;
+}
+
+#cb-row--header-main .site-title a {
+    font-size: 32px;
+}
+
+#cb-row--header-main .site-description {
+    font-size: 18px;
+}
 
 
 
 
 
-
-/* BANDEAU IMAGE HEADER DES CHALETS A LA MESURE DE VOS REVES */
+/* BANDEAU IMAGE HEADER: DES CHALETS A LA MESURE DE VOS REVES */
 
 
 /* Customization bandeau image */
@@ -109,6 +120,8 @@ margin-left: 2.5em;
 /* Couleur text widgets footer */
 #cb-row--footer-main *{
     color:black;
+    font-size: 16px;
+    line-height: 1.3;
 }
 
 #cb-row--footer-main .widget-title{
@@ -139,11 +152,21 @@ margin-left: 2.5em;
     padding-bottom:0;
 }
 
+/* ajustement logo footer */
+#media_image-3 .image, .wp-image-119 {
+    margin-top:10px;
+} 
 
 
 
 /* CUSTOMIZATION FORMULAIRE */
 
+/* Reduction de marges */
+#wpcf7-f6-p67-o1 .wpcf7-form { margin-bottom:0px; }
+#wpcf7-f6-p67-o1 .wpcf7-form p:last-of-type { margin-bottom:0px; height:50px; }
+#wpcf7-f6-p67-o1 .wpcf7-form .ajax-loader { width:0px; height:0px; }
+
+/* Bouton Envoyer */
 #wpcf7-f6-p67-o1 input[type=submit].wpcf7-form-control, .wpcf7-submit {
     width:100%;
     color: black;
