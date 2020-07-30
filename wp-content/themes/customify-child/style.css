@@ -35,9 +35,11 @@ html, body {
     background-color:rgba(202, 195, 177, 0.78);
 }
 
+/*bloc image et texte */
 .header--row-inner, .item--inner.builder-item--html, .builder-header-html-item.item--html {
     width:1184px;
     margin:0px auto;
+    background-color:#dedede;
 }
 
 #cb-row--header-bottom .header--row-inner .customify-container {
@@ -71,7 +73,6 @@ html, body {
     word-break: break-word;
     overflow-wrap: break-word;
     max-width:770px;
-
 }
 
 /* centrage titre bandeau les autres options ne fonctionnent pas */
@@ -96,11 +97,6 @@ margin-left: 2.5em;
 }
 
 
-/*
-#main {
-    background-color:#dedede;
-}
-*/
 #main.content-area.customify-col-12 {
     padding-top: 0px;
 }
@@ -141,4 +137,17 @@ margin-left: 2.5em;
 
 #site-footer #cb-raw--footer-main .footer--row-inner {
     padding-bottom:0;
+}
+
+
+
+
+/* CUSTOMIZATION FORMULAIRE */
+
+#wpcf7-f6-p67-o1 input[type=submit].wpcf7-form-control, .wpcf7-submit {
+    width:100%;
+    color: black;
+    background-color:rgba(202, 195, 177, 0.78);
+    border-radius:5px;
+    font-weight: 500;
 }
