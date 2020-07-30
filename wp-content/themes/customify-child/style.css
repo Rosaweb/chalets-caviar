@@ -70,11 +70,13 @@ html, body {
     padding: 20px;
     word-break: break-word;
     overflow-wrap: break-word;
-    width:770px;
+    max-width:770px;
+
 }
 
+/* centrage titre bandeau les autres options ne fonctionnent pas */
 #right-block-text h2 {
-    text-align: center;
+margin-left: 2.5em;
 }  
 
 #right-block-text p {
@@ -88,24 +90,17 @@ html, body {
 
 
 
-
-
-
-
-
-
-
-
-
-#site-content, #main {
-
-    padding-top:30px;
+#post-67 .entry-content .wp-block-columns:first-of-type {
+    background-color:#dedede;
+    padding:20px;
 }
 
+
+/*
 #main {
-    background-color:rgb(221, 219, 215);
+    background-color:#dedede;
 }
-
+*/
 #main.content-area.customify-col-12 {
     padding-top: 0px;
 }
