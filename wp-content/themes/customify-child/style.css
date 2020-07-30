@@ -114,6 +114,31 @@ margin-left: 2.5em;
 
 
 
+/* ajustement chalets  */
+
+#main .wc-block-grid__product {
+    margin-left:0px;
+}
+
+#main .wc-block-grid__product a:hover .wc-block-grid__product-image img {
+
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter: sepia(1);
+    -ms-filter: sepia(1);
+    
+    /*
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    */
+}
+
+
+
 
 /* CUSTOMIZATION FOOTER */
 
@@ -173,4 +198,29 @@ margin-left: 2.5em;
     background-color:rgba(202, 195, 177, 0.78);
     border-radius:5px;
     font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE PRODUIT */
+
+/* Cacher choix quantité */
+#main .cart {
+    display:none;
 }
