@@ -89,11 +89,12 @@ html, body {
 /* centrage titre bandeau (les autres propriétés css ne fonctionnent pas) */
 #right-block-text h2 {
 margin-left: 2.5em;
+font-size: 28px;
 }  
 
 #right-block-text p {
     text-transform: none;
-    font-size: 16px;;
+    font-size: 18px;
 }
 
 #page-titlebar {
