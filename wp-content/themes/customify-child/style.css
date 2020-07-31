@@ -86,7 +86,7 @@ html, body {
     max-width:770px;
 }
 
-/* centrage titre bandeau les autres options ne fonctionnent pas */
+/* centrage titre bandeau (les autres propriétés css ne fonctionnent pas) */
 #right-block-text h2 {
 margin-left: 2.5em;
 }  
@@ -99,6 +99,50 @@ margin-left: 2.5em;
 #page-titlebar {
     padding:12px;
 }
+
+/* Trois boutons: Acheter Louer Expertiser */
+
+nav#troisboutons {
+    display:flex !important;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+}
+
+nav#troisboutons a {
+    background-color:rgba(202, 195, 177, 0.78);
+    font-size:16;
+    text-transform: uppercase;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+nav#troisboutons a:nth-last-of-type(2) {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+nav#troisboutons a:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,27 +166,32 @@ margin-left: 2.5em;
 }
 
 
-/* ajustement chalets  */
+/* ajustement images chalets  */
 
 #main .wc-block-grid__product {
     margin-left:0px;
 }
 
+#main .wc-block-grid__product a .wc-block-grid__product-image img {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 #main .wc-block-grid__product a:hover .wc-block-grid__product-image img {
-
-    filter: sepia(1);
-    -webkit-filter: sepia(1);
-    -moz-filter: sepia(1);
-    -o-filter: sepia(1);
-    -ms-filter: sepia(1);
-
-    /*
+    
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
-    */
+
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
