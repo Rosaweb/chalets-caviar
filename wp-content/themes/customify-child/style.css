@@ -16,6 +16,14 @@ html, body {
     line-height: 1.618;
 }
 
+/* TOP MENU */
+
+/* alignement de weglot */
+#menu-topmenu #menu-item--top-desktop-190 a {
+    padding-top: 9px;
+}
+
+
 /* LOGO TITRE ET DESCRIPTION */
 
 .site-branding img { margin: 0 auto; }
@@ -113,10 +121,13 @@ nav#troisboutons {
 nav#troisboutons a {
     background-color:rgba(202, 195, 177, 0.78);
     font-size:16;
+    font-family: sans-serif;
     text-transform: uppercase;
     padding:10px;
     padding-left:20px;
     padding-right:20px;
+    border-radius:4px;
+    transition: transform .3s,border .3s, background-color .3s,box-shadow .3s,opacity .3s,color .3s,-webkit-transform .3s;
 }
 
 nav#troisboutons a:nth-last-of-type(2) {
@@ -125,11 +136,12 @@ nav#troisboutons a:nth-last-of-type(2) {
 }
 
 nav#troisboutons a:hover {
-    filter: grayscale(1);
+  /*  filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
+    -ms-filter: grayscale(1); */
+    background-color:rgba(175, 158, 116, 0.78);
 }
 
 
@@ -137,7 +149,9 @@ nav#troisboutons a:hover {
 
 
 
-
+#page-titlebar {
+    border:none;
+}
 
 
 
@@ -254,6 +268,9 @@ nav#troisboutons a:hover {
 
 /* CUSTOMIZATION FOOTER */
 
+#cb-row--footer-main,.footer-main, .footer--row{
+    background-color:rgba(202, 195, 177, 0.78) !important;
+}
 /* Couleur text widgets footer */
 #cb-row--footer-main *{
     color:black;
