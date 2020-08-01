@@ -10,9 +10,9 @@ Text Domain:	 customify-child
 */
 
 html, body {
-    color: #686868;
+    color: #000000 !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500 !important;
     line-height: 1.618;
 }
 
@@ -197,6 +197,38 @@ nav#troisboutons a:hover {
 
 
 
+/* AJUSTEMENT INFO PRODUITS */
+
+.wc-block-grid__product-title {
+    font-size: medium;
+}
+
+.wc-block-grid__product-short-description {
+    text-align: start;
+    font-size: medium;
+}
+
+.wc-block-grid__product-price, .price {
+    font-size: medium;
+    text-align: right;
+    vertical-align: baseline;
+}
+
+/* AJUSTEMENT INFO PRODUITS SUR PAGE PRODUIT */
+
+.woocommerce-product-details__short-description {
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
 /* CUSTOMIZATION FOOTER */
 
 /* Couleur text widgets footer */
@@ -279,5 +311,10 @@ nav#troisboutons a:hover {
 
 /* Cacher choix quantité */
 #main .cart {
+    display:none;
+}
+
+/*Masquer bandeau header */
+.single-product #cb-row--header-bottom {
     display:none;
 }

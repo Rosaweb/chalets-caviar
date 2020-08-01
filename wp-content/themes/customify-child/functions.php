@@ -14,6 +14,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 
 
+
 /**
  * Add short description to WooCommerce product blocks
  */
@@ -30,6 +31,8 @@ function add_short_desc_woocommerce_blocks_product_grid_item_html($content, $dat
 
     return $content;
 }
+
+ 
 ?>
 
 
