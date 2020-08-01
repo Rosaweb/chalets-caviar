@@ -152,17 +152,26 @@ nav#troisboutons a:hover {
     padding:20px;
 }
 
+#post-67 .entry-content .wp-block-columns:first-of-type h2{
+    background-color:#dedede;
+}
+
 #main.content-area.customify-col-12 {
     padding-top: 0px;
 }
 
-/*ajustement titres */
+/*stylisation titres Locations et Ventes sur page d'accueil */
 
 #post-67 .entry-content h2 {
-    background-color:#dedede ;
+    background-color:rgba(202, 195, 177, 0.78);
     font-size: 24px;
     padding:5px;
     text-align: center;
+}
+
+#post-67 .entry-content p {
+    font-size: 17px;
+    margin-left:20px;
 }
 
 
@@ -223,6 +232,20 @@ nav#troisboutons a:hover {
 
 
 
+
+
+
+
+/* Politique de confidencialité */
+#site-content *{
+    overflow: hidden;
+    word-break: break-word;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -o-hyphens: none;
+    hyphens: none;
+}
 
 
 
@@ -316,5 +339,13 @@ nav#troisboutons a:hover {
 
 /*Masquer bandeau header */
 .single-product #cb-row--header-bottom {
+    display:none;
+}
+
+
+/* PAGE CGV */
+
+/* retrait généré par */
+#wp-cgv i:first-of-type {
     display:none;
 }
