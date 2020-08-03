@@ -239,9 +239,30 @@ nav#troisboutons a:hover {
 
 /* AJUSTEMENT INFO PRODUITS SUR PAGE PRODUIT */
 
+nav.woocommerce-breadcrumb {
+    font-size: medium;
+}
+
 .woocommerce-product-details__short-description {
     font-size: larger;
 }
+
+
+/* AJUSTEMENT INFO PRODUITS ATTRIBUTS */
+
+#tab-additional_information table th {
+    width: 220px;
+    font-size: medium;
+}
+
+.product_meta .posted_in, .product_meta .tagged_as {
+    display:none;
+}
+
+#tab-description p {
+    margin-left:2em;
+}
+
 
 
 

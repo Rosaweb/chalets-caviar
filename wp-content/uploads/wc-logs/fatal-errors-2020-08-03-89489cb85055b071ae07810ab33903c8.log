@@ -1,0 +1,120 @@
+2020-08-03T11:38:31+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:38:42+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:41:49+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:43:05+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:43:19+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:47:27+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:66
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): products_specs_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 66
+
+2020-08-03T11:48:01+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
+2020-08-03T11:48:04+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
+2020-08-03T11:51:34+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
+2020-08-03T12:10:55+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
+2020-08-03T12:14:28+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
+2020-08-03T12:15:34+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php:72
+Stack trace:
+#0 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(287): pharmacy_extra_info('')
+#1 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\templates\single-product\meta.php(38): do_action('woocommerce_pro...')
+#4 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\Users\\user\\L...')
+#5 C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1547): wc_get_template('single-product/...')
+#6 C:\Us in C:\Users\user\Local Sites\chalets-et-caviar\app\public\wp-content\plugins\WooProductsSpecs.php on line 72
+
